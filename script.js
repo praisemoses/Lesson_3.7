@@ -1,8 +1,10 @@
 // 1. Declare a variable called myName. 
 //  - Give it the value of your name. 
 //  - This is a string so the value should be in quotes ""
-
-
+let myName="Praise Moses";
+let age=16;
+let answer=document.querySelector(".answer");
+answer.innerHTML = myName + " is " + age;
 
 // 2. Declare a variable called age. 
 //  - Give it the value of your age. 

@@ -3,12 +3,14 @@
 
 // 2. Take look at the HMTL. When the user clicks the "option-one" button, we want the "option-one-screen" div to show. 
 //  - First, store those elements as variables. Can someone take me through the steps to do that?
-
-
+document.getElementsByClassName(".option-one");
+document.getElementsByClassName(".option-one-screen");
+let button= document.querySelector(".option-one,.option-two")
 // CODE SOLO, PART 1
 // 3. Declare a variable to save the button with the class "option-two"
 // 4. Declare a variable to save the div with the class "option-two-screen"
-
+document.getElementsByClassName(".option-two");
+document.getElementsByClassName(".option-two-screen");
 
 
 // CODE ALONG, PART 2
@@ -18,10 +20,7 @@
 
 // CODE SOLO, PART 2
 // 6. Now use console.log() to check the contents of the option-two variables you created. 
-//  - Did they save correctly? If not, fix them!
-
-
-
+//  - Did they save correctly? If not, fix the
 
 // LAST PART
 // 7. Plug in the variables we created to make it so that parts of the story show up when the user clicks the button! 
